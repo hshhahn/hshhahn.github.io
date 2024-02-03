@@ -1,4 +1,4 @@
-# hshhahn.github.io
+# Sanghyun Hahn
 
 SSHS 29th
 
