@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Sanghyun Hahn
     - name: Date of Birth
-      value: 14th March 1879
+      value: 21st February 2001
     - name: Languages
-      value: English, German
+      value: English, Korean
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Highschool
+      institution: Seoul Science Highschool, Seoul, Korea
+      year: 2017 - 2020
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: University
+      institution: Seoul National University, Department of Mechanical and Aerospace Engineering
+      year: 2020 - 2025
       description:
         - Description 1.
         - Description 2.
