@@ -1,80 +1,60 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Forward Facing 3D Gaussian Splatting as Markov Chain Monte Carlo
+description: Jeongtaek Oh, Wonjun Jeong, Huijeong Choe, <strong>Sanghyun Hahn*</strong>
+img: assets/img/FF_3DGS_proj/main.png
+importance: 4
+category: work
+proj_pdf: FF_3DGS_MCMC.pdf
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In this project, we enhance the performance of 3D Gaussian Splatting as Markov Chain Monte Carlo in forward-facing scenes by introducing Depth Supervision and Near Gaussian Regularizers. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/4.PNG" title="example image 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/5.PNG" title="example image 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+
+Gaussian Splatting is a method for representing a 3D scene with a large number of 3D Gaussians. 
+In order to express a dynamic scene using 3D gaussians, the conventional approach is to generate an independent set of Gaussians for every timestep. 
+However, this method requires a large amount of data and compuatational resources, which is inefficient. 
+Deformable 3D Gaussians, or 4D Gaussian Splatting uses a MLP to solve this issue.
+In this approach, a trained MLP takes the initial Gaussian as its input, and returns the Gaussian at time t, which greatly reduces the number of parameters. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/13.PNG" title="example image 2" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/dnerf.gif" title="example image 2" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+The biggest downside of 4D Gaussians Splatting is that the network is strongly overfitted to the input images, resulting in broken images at timesteps without any ground truth, which we refer to as interpolated timesteps. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/losses.png" title="example image 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+In order to address this issue, we propose Blended Gaussian Loss, which penalizes deviations between the scenes at interpolated timesteps and the ground truth. This loss term forces each interpolated scene to resemble one of the ground truth images, guiding the network to produce more realistic images.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/main.png" title="example image 4" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/result.png" title="example image 4" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The proposed method outperforms vanilla 4D Gaussian Splatting, generating more realistic figures at timesteps without ground truth.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

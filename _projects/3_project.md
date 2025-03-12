@@ -56,5 +56,5 @@ In order to address this issue, we propose Blended Gaussian Loss, which penalize
     </div>
 </div>
 
-The proposed method outperforms vanilla 4D Gaussian Splatting, generating more realistic figures at timesteps without ground truth.
+The proposed method slightly outperforms vanilla 4D Gaussian Splatting, generating more realistic figures at timesteps without ground truth.
 
