@@ -41,7 +41,7 @@
             - Simultaneous Localization And Mapping(SLAM)
             - Autonomous Driving
 
-- title: Open Source Projects
+- title: Publications
   type: time_table
   contents:
     - title: <a href="https://github.com/SangwooJung98/3D_Map_Evaluation">Quantitative 3D Map Accuracy Evaluation</a>
