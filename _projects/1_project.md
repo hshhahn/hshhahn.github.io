@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Initial Kernel Estimation for Image Deblurring
+description: 2023_2 Machine Learning for Mechanical Engineering Project
+img: assets/img/Kernel_Estimation_proj/main_img.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 Every project has a beautiful feature showcase page.
