@@ -1,7 +1,8 @@
 ---
 layout: page
 title: OceanGate Titan Structural Analysis
-description: <strong>Sanghyun Hahn*</strong>, Yongmin Lee*
+description: Mechanics of Aerospace Structures Term Project
+contributers: <strong>Sanghyun Hahn*</strong>, Yongmin Lee*
 img: assets/img/Oceangate_proj/1.PNG
 importance: 2
 category: work

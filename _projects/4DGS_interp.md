@@ -59,9 +59,3 @@ In order to address this issue, we propose Blended Gaussian Loss, which penalize
 </div>
 
 The proposed method slightly outperforms vanilla 4D Gaussian Splatting, generating figures with less artifacts at timesteps without ground truth.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/result.png" title="example image 4" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
