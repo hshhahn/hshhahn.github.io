@@ -1,4 +1,4 @@
-*---
+---
 layout: page
 title: OceanGate Titan Structural Analysis
 description: Jungwoo park*, Wonjae Ho*, <strong>Sanghyun Hahn*</strong>

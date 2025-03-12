@@ -1,4 +1,4 @@
-*---
+---
 layout: page
 title: OceanGate Titan Structural Analysis
 description: Yongmin Lee*, <strong>Sanghyun Hahn*</strong>
@@ -81,4 +81,3 @@ In this project, We attempted to investigate the cause of the OceanGate Titan Ac
         {% include figure.liquid loading="eager" path="assets/img/Oceangate_proj/12.PNG" title="example image 12" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-*
