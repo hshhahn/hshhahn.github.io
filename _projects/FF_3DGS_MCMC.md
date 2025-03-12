@@ -13,7 +13,7 @@ related_publications: false
 In this project, we enhance the performance of 3D Gaussian Splatting as Markov Chain Monte Carlo in forward-facing scenes by introducing Depth Supervision and Near Gaussian Regularizers. 
 Detailed explanations of the project can be found in the downloadable paper on the upper right. 
 
-<div class="row">
+<div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/FF_3DGS_proj/5.PNG" title="example image 1" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -26,7 +26,7 @@ Detailed explanations of the project can be found in the downloadable paper on t
 Using the probability approach, 3DGS MCMC treats the complicated Adaptive Density Control step as simple state transitions.
 This metric does not require cloning or splitting of the Gaussian, reducing the number of hand-tuned parameters throughout the algorithm.
 
-<div class="row">
+<div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/FF_3DGS_proj/8.PNG" title="example image 1" class="img-fluid rounded z-depth-1" %}
     </div>
