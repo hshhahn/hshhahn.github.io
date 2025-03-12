@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Forward Facing 3D Gaussian Splatting as Markov Chain Monte Carlo
-description: Jeongtaek Oh, Wonjun Jeong, Huijeong Choe, <strong>Sanghyun Hahn*</strong>
+description: Jeongtaek Oh*, Wonjun Jeong*, Huijeong Choe*, <strong>Sanghyun Hahn*</strong>
 img: assets/img/FF_3DGS_proj/main.png
 importance: 4
 category: work
