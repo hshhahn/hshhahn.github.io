@@ -7,6 +7,16 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
+  {% if page.proj_pdf %}
+    <a
+      href="{{ page.proj_pdf | prepend: 'assets/pdf/' | relative_url}}"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="float-right"
+      ><i class="fa-solid fa-file-pdf"></i
+    ></a>
+  {% endif %}
+
   <article>
     {{ content }}
   </article>
@@ -17,6 +27,7 @@ layout: default
       {% bibliography --cited_in_order %}
     </div>
   {% endif %}
+  
 
   {% if site.giscus and page.giscus_comments %}
     {% include giscus.liquid %}
