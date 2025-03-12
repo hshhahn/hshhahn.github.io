@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Initial Kernel Estimation for Image Deblurring
-description: Dongkyu Shin*, Jonghooh Shin*, <strong>Sanghyun Hahn*</strong>, Seungseok Oh*, Jooyoung Kim*, Seokjin Park*
+description: Term Project - Machine Learning for Mechanical Engineering (2023 Fall)
+contributers: Dongkyu Shin*, Jonghooh Shin*, <strong>Sanghyun Hahn*</strong>, Seungseok Oh*, Jooyoung Kim*, Seokjin Park*
 img: assets/img/Kernel_Estimation_proj/main_img.png
 importance: 1
 category: work
