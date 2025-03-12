@@ -39,7 +39,7 @@ The biggest downside of 4D Gaussians Splatting is that the network is strongly o
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/4.PNG" title="example image 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/losses.png" title="example image 1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
