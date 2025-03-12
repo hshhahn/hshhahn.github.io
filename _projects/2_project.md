@@ -8,7 +8,7 @@ category: work
 related_publications: false
 ---
 
-In this project, We attempted to investigate the cause of the OceanGate Titan Accident through an ANSYS simulation.
+In this project, we attempt to investigate the cause of the OceanGate Titan Accident through an ANSYS simulation.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

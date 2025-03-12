@@ -1,21 +1,29 @@
 ---
 layout: page
-title: OceanGate Titan Structural Analysis
-description: Jungwoo park*, Wonjae Ho*, <strong>Sanghyun Hahn*</strong>
-img: assets/img/Oceangate_proj/1.PNG
+title: 3D Dynamic Scene Interpolation with Gaussian Splatting
+description: <strong>Sanghyun Hahn*, </strong>Jungwoo park*, Wonjae Ho*
+img: assets/img/Dynamic_Interp_3DGS_proj/main.PNG
 importance: 3
 category: work
 proj_pdf: 3D Dynamic Scene Interpolation with Gaussian Splatting.pdf
 related_publications: false
 ---
 
-In this project, We attempted to investigate the cause of the OceanGate Titan Accident through an ANSYS simulation.
+In this project, we enhance the performance of Dynamic 3D Gaussian Splatting for sparse timewise inputs by introducing a loss term which integrates interpolated Gaussians from unseen timesteps.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Oceangate_proj/1.PNG" title="example image 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/4.PNG" title="example image 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/5.PNG" title="example image 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+Gaussian Splatting is a method for representing a 3D scene with a large number of 3D Gaussians. 
+In order to express a dynamic scene using 3D gaussians, the conventional approach is to generate an independent set of Gaussians for every timestep. 
+However, this method requires a large amount of data and compuatational resources, which is inefficient. 
+The 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
