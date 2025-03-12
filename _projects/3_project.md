@@ -2,7 +2,7 @@
 layout: page
 title: 3D Dynamic Scene Interpolation with Gaussian Splatting
 description: <strong>Sanghyun Hahn*, </strong>Jungwoo park*, Wonjae Ho*
-img: assets/img/Dynamic_Interp_3DGS_proj/main.PNG
+img: assets/img/Dynamic_Interp_3DGS_proj/main.png
 importance: 3
 category: work
 proj_pdf: 3D Dynamic Scene Interpolation with Gaussian Splatting.pdf
@@ -47,12 +47,12 @@ In order to address this issue, we propose Blended Gaussian Loss, which penalize
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/main.PNG" title="example image 4" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/main.png" title="example image 4" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/result.PNG" title="example image 4" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/result.png" title="example image 4" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
