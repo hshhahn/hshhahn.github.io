@@ -4,7 +4,7 @@ title: Forward Facing 3D Gaussian Splatting as Markov Chain Monte Carlo
 description: Term Project - Deep Learning (2024 Fall)
 contributers: Jeongtaek Oh*, Wonjun Jeong*, Huijeong Choe*, <strong>Sanghyun Hahn*</strong>
 img: assets/img/FF_3DGS_proj/main.png
-importance: 4
+importance: 2
 category: work
 proj_pdf: FF_3DGS_MCMC.pdf
 related_publications: false

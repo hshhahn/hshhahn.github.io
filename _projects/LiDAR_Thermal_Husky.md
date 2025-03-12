@@ -4,7 +4,7 @@ title: LiDAR-Thermal Husky UGV Platform
 description: Undergraduate Research Oppertumity Program (2023 Summer)
 contributers: <strong>Sanghyun Hahn</strong>
 img: assets/img/lidar_thermal_ugv_proj/main.png
-importance: 5
+importance: 1
 category: work
 proj_pdf: LiDAR_Thermal_Husky.pdf
 related_publications: false
