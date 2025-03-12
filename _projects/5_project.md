@@ -3,21 +3,22 @@ layout: page
 title: LiDAR-Thermal Husky UGV Platform
 description: Undergraduate Research Oppertumity Program (2023 Summer)
 contributers: <strong>Sanghyun Hahn</strong>
-img: assets/img/FF_3DGS_proj/main.png
+img: assets/img/lidar_thermal_ugv_proj/main.png
 importance: 5
 category: work
 related_publications: false
 ---
 
-In this project, we enhance the performance of 3D Gaussian Splatting as Markov Chain Monte Carlo in forward-facing scenes by introducing Depth Supervision and Near Gaussian Regularizers. 
-Detailed explanations of the project can be found in the downloadable paper on the upper right. 
+In this project, I developed a UGV platform that is capable of collecting LiDAR, thermal image, and IMU data for SLAM.
+I designed mounts for the sensor system and a mini PC, set up the radio control system, and performed LiDAR-Camera Calibration.
+I collected data inside the engineering department building of SNU, and tested LIO-SAM on the dataset.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/FF_3DGS_proj/5.PNG" title="example image 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/lidar_thermal_ugv_proj/1.png" title="example image 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/FF_3DGS_proj/6.PNG" title="example image 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/lidar_thermal_ugv_proj/2.png" title="example image 1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
