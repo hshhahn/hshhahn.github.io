@@ -22,6 +22,18 @@ I collected data inside the engineering department building of SNU, and tested L
     </div>
 </div>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/lidar_thermal_ugv_proj/3.png" title="example image 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/lidar_thermal_ugv_proj/4.png" title="example image 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+The frame is made of 10mm x 10mm aluminum profile, with the IMU and FLIR placed at h=130mm.
+The LiDAR is directly attatched to the frame, while the IMU and FLIR, Mini PC are fixed by a 3D printed mount.
+
 3D Gaussian Splatting as Markov Chain Monte Carlo (3DGS-MCMC) is a modified version of 3D Gaussian Splatting, which reduces the heuristics of the original method. 3DGS-MCMC treats the training and optimization process as a sampling process from a probability distribution. 
 Using the probability approach, 3DGS MCMC treats the complicated Adaptive Density Control step as simple state transitions.
 This metric does not require cloning or splitting of the Gaussian, reducing the number of hand-tuned parameters throughout the algorithm.
