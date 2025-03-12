@@ -10,6 +10,8 @@ related_publications: false
 ---
 
 In this project, we enhance the performance of Dynamic 3D Gaussian Splatting for sparse timewise inputs by introducing a loss term which integrates interpolated Gaussians from unseen timesteps.
+Detailed explanations of the project can be found in the downloadable paper on the upper right. 
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
