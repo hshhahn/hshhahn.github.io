@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Initial Kernel Estimation for Image Deblurring
-description: Jooyoung Kim*, Dongkyu Shin*, Jonghooh Shin*, Sengseok Oh*, Seokjin Park*, <strong>Sanghyun Hahn*</strong> 
+description: Dongkyu Shin*, Jonghooh Shin*, <strong>Sanghyun Hahn*</strong>, Seungseok Oh*, Jooyoung Kim*, Seokjin Park*
 img: assets/img/Kernel_Estimation_proj/main_img.png
 importance: 1
 category: work

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: OceanGate Titan Structural Analysis
-description: Yongmin Lee*, <strong>Sanghyun Hahn*</strong>
+description: <strong>Sanghyun Hahn*</strong>, Yongmin Lee*
 img: assets/img/Oceangate_proj/1.PNG
 importance: 2
 category: work
