@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Projects without publications, via class and internship.
 nav: true
 nav_order: 3
 display_categories: false
