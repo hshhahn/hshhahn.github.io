@@ -23,11 +23,12 @@ In this project, we enhance the performance of Dynamic 3D Gaussian Splatting for
 Gaussian Splatting is a method for representing a 3D scene with a large number of 3D Gaussians. 
 In order to express a dynamic scene using 3D gaussians, the conventional approach is to generate an independent set of Gaussians for every timestep. 
 However, this method requires a large amount of data and compuatational resources, which is inefficient. 
-The 
+In order to address this issue, Deformable 3D Gaussians, or 4D Gaussian Splatting was introduced. 
+The MLP takes the initial Gaussian as its input, and returns the Gaussian at time t, which greatly reduces the number of parameters. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Oceangate_proj/2.PNG" title="example image 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Dynamic_Interp_3DGS_proj/13.PNG" title="example image 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
