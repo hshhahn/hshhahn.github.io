@@ -17,8 +17,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an undergraduate senior student in the department of Mechanical and Aerospace Engineering, Seoul National University. 
-My research goal is to provide a better knowledge of the world through visual sensors, bringing the robots from our imagination to reality. 
+I am an undergraduate senior student in the department of Mechanical and Aerospace Engineering, Seoul National University.
+I am currently a research intern in the SNU Machine Perception and Reasoning Lab, interested in dexterous manipulation, humanoids, and robot learning.
+My research goal is to enable robots to think and act in the way humans do, bringing robots that we've only imagined of to real life.
 
 
 <!--
