@@ -12,14 +12,14 @@
   type: time_table
   contents:
     - title: Highschool
-      institution: Seoul Science Highschool, Seoul, Korea
+      institution: Seoul Science High School, Seoul, Korea
       year: 2017 - 2020
       description:
         - GPA 4.16/4.30
 
     - title: University
       institution: Seoul National University, Seoul, Korea
-      year: 2020 - 2025
+      year: 2020 - Present
       description:
         - title: Department of Mechanical and Aerospace Engineering
         - title: GPA 4.13/4.30 (Expected Graduation Feb. 2026)
@@ -28,21 +28,21 @@
   type: time_table
   contents:
     - title: Undergraduate Research Intern
-      institution: <a href = https://rpm.snu.ac.kr/> RPM Robotics Lab.</a>
+      institution: <a href = https://rpm.snu.ac.kr/>RPM Robotics Lab.</a>
       year: 2023 - 2024
       description:
         - title: LiDAR - Thermal HUSKY UGV Platform
           contents:
-              - Simultaneous Localization And Mapping (SLAM)
+              - Simultaneous Localization and Mapping (SLAM)
               - Hardware Design and Implementation
 
         - title: Quantitative 3D Map Accuracy Evaluation
           contents:
-              - Simultaneous Localization And Mapping (SLAM)
+              - Simultaneous Localization and Mapping (SLAM)
               - Algorithm Development
 
     - title: Undergraduate Research Intern
-      institution: <a href = https://larr.snu.ac.kr/> Lab. for Autonomous Robotics Research.</a>
+      institution: <a href = https://larr.snu.ac.kr/>Lab. for Autonomous Robotics Research</a>
       year: 2024 - 2025
       description:
         - title: Enhancing Initialization for Gaussian Splatting
@@ -50,13 +50,13 @@
               - Computer Vision
 
     - title: Undergraduate Research Intern
-      institution: <a href = https://snumprlab.github.io/> Machine Perception and Reasoning Lab.</a>
+      institution: <a href = https://snumprlab.github.io/>Machine Perception and Reasoning Lab.</a>
       year: 2025 - Present
       description:
         - title: Gaussian Splatting as SE(3) Equivariant Features for Imitation Learning
           contents:
               - Imitation Learning
-              - Robitics
+              - Robotics
               - Computer Vision
         
         - title: Action Chunking Proximal Policy Optimization for Universal Robotic Dexterous Grasping
@@ -72,9 +72,11 @@
       year: 2024
       description: The 24th International Conference on Control, Automation, and Systems (ICCAS 2024)
 
-    - title: Action Chunking Proximal Policy Optimization for Universal Robotic Dexterous Grasping
+    - title: Action Chunking Proximal Policy Optimization for Universal Dexterous Grasping
       year: 2025
-      description: IEEE Humanoids 2025 - Workshop on Dexterous Human Manipulation 
+      description: I
+      - IEEE Humanoids 2025 - Workshop on Dexterous Human Manipulation 
+      - Under review at ICLR 2026
 
 - title: Honors and Awards
   type: time_table
