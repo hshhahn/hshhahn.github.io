@@ -11,35 +11,39 @@
 - title: Education
   type: time_table
   contents:
+    - title: University
+      institution: Seoul National University, Seoul, Korea
+      year: 2020 - 2026
+      description:
+        - Department of Mechanical and Aerospace Engineering
+        - GPA 4.13/4.30 (3.95/4.00)
+
     - title: Highschool
       institution: Seoul Science High School, Seoul, Korea
       year: 2017 - 2020
       description:
         - GPA 4.16/4.30
 
-    - title: University
-      institution: Seoul National University, Seoul, Korea
-      year: 2020 - 2026
-      description:
-        - Department of Mechanical and Aerospace Engineering
-        - GPA 4.13/4.30 (Expected Graduation Feb. 2026)
+    
 
 - title: Experience
   type: time_table
   contents:
-    - title: Undergraduate Research Intern
-      institution: <a href = https://rpm.snu.ac.kr/>RPM Robotics Lab.</a>
-      year: 2023 - 2024
-      description:
-        - title: LiDAR - Thermal HUSKY UGV Platform
-          contents:
-              - Simultaneous Localization and Mapping (SLAM)
-              - Hardware Design and Implementation
 
-        - title: Quantitative 3D Map Accuracy Evaluation
+    - title: Undergraduate Researcher
+      institution: <a href = https://snumprlab.github.io/>Machine Perception and Reasoning Lab.</a>
+      year: 2025 - Present
+      description:
+        - title: Gaussian Splatting as SE(3) Equivariant Features for Imitation Learning
           contents:
-              - Simultaneous Localization and Mapping (SLAM)
-              - Algorithm Development
+              - Imitation Learning
+              - Robotics (Manipulation)
+              - Computer Vision
+        
+        - title: Action Chunking Proximal Policy Optimization for Universal  Dexterous Grasping
+          contents:
+              - Reinforcement Learning
+              - Dexterous Manipulation
 
     - title: Undergraduate Research Intern
       institution: <a href = https://larr.snu.ac.kr/>Lab. for Autonomous Robotics Research</a>
@@ -48,45 +52,51 @@
         - title: Enhancing Initialization for Gaussian Splatting
           contents:
               - Computer Vision
+              - 3D Scene Representation
 
     - title: Undergraduate Research Intern
-      institution: <a href = https://snumprlab.github.io/>Machine Perception and Reasoning Lab.</a>
-      year: 2025 - Present
+      institution: <a href = https://rpm.snu.ac.kr/>RPM Robotics Lab.</a>
+      year: 2023 - 2024
       description:
-        - title: Gaussian Splatting as SE(3) Equivariant Features for Imitation Learning
+        - title: LiDAR - Thermal HUSKY UGV Platform
           contents:
-              - Imitation Learning
-              - Robotics
-              - Computer Vision
-        
-        - title: Action Chunking Proximal Policy Optimization for Universal Robotic Dexterous Grasping
+              - Simultaneous Localization and Mapping
+              - Hardware Design and Implementation
+
+        - title: Quantitative 3D Map Accuracy Evaluation
           contents:
-              - Reinforcement Learning
-              - Robotics
+              - Simultaneous Localization and Mapping
+              - Algorithm Development
+    
+
+
 
 
 - title: Publications
   type: time_table
   contents:
+    - title: <a href="https://openreview.net/forum?id=XUFQaNSZdK">Action Chunking Proximal Policy Optimization for Universal Dexterous Grasping</a>
+      year: 2025
+      description:
+      - IEEE Humanoids 2025 - Workshop on Dexterous Human Manipulation 
+      - In extension for ICML 2026
+
     - title: <a href="https://github.com/SangwooJung98/3D_Map_Evaluation">Quantitative 3D Map Accuracy Evaluation Hardware and Algorithm for LiDAR(-Inertial) SLAM</a>
       year: 2024
       description: The 24th International Conference on Control, Automation, and Systems (ICCAS 2024)
 
-    - title: Action Chunking Proximal Policy Optimization for Universal Dexterous Grasping
-      year: 2025
-      description:
-      - IEEE Humanoids 2025 - Workshop on Dexterous Human Manipulation 
-      - Under review at ICLR 2026
+
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2020 - 2024
-      items:
-        - The National Scholarship for Science and Engineering
     - year: 2024
       items:
         - SNU Student-Directed Education Undergraduate Research Program 
+
+    - year: 2020 - 2024
+      items:
+        - The National Scholarship for Science and Engineering
 
 - title: Interests
   type: nested_list
@@ -96,6 +106,7 @@
         - Dexterous Manipulation
         - Humanoids
         - Robot Learning
+        - Reinforcement Learning
     - title: Computer Vision
       items:
         - 3D Computer Vision
