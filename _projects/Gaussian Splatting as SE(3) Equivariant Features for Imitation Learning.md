@@ -12,8 +12,6 @@ related_publications: false
 
 In this project, we achieve one-shot imitation learning of robotic manipulations with Gaussian Splatting.
 
-
-## Idea
 The key idea is that the Gaussian Features obtained from Gaussian Splatting can be as features for Iterative Closest Points.
 Pointclouds have 3 information: (x,y,z).
 Gaussian Splats, in contrast, carry the position (x,y,z), the standard deviations, and the surface normal vectors: thats 3 times more information.
