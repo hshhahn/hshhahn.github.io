@@ -36,7 +36,7 @@
   contents:
     - title: Undergraduate Researcher
       institution: <a href = https://snumprlab.github.io/>Machine Perception and Reasoning Lab.</a>
-      year: 2025 - Present
+      year: 2025 - 2026
       description:
         - title: Gaussian Splatting as SE(3) Equivariant Features for Imitation Learning
           contents:
