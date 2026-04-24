@@ -63,4 +63,4 @@ LiDAR, Thermal Camera, and IMU data was collected in the engineering department 
     </div>
 </div>
 
-The intrinsic/extrinsics for LiDAR-Camera calibration was obtained by a calibration toolbox. 
+The intrinsic/extrinsics for LiDAR-Camera calibration was obtained by a calibration toolbox.

@@ -24,26 +24,23 @@
       description:
         - GPA 4.16/4.30
 
-    
-
 - title: Experience
   type: time_table
   contents:
-
     - title: Undergraduate Researcher
       institution: <a href = https://snumprlab.github.io/>Machine Perception and Reasoning Lab.</a>
       year: 2025 - Present
       description:
         - title: Gaussian Splatting as SE(3) Equivariant Features for Imitation Learning
           contents:
-              - Imitation Learning
-              - Robotics (Manipulation)
-              - Computer Vision
-        
+            - Imitation Learning
+            - Robotics (Manipulation)
+            - Computer Vision
+
         - title: Action Chunking Proximal Policy Optimization for Universal  Dexterous Grasping
           contents:
-              - Reinforcement Learning
-              - Dexterous Manipulation
+            - Reinforcement Learning
+            - Dexterous Manipulation
 
     - title: Undergraduate Research Intern
       institution: <a href = https://larr.snu.ac.kr/>Lab. for Autonomous Robotics Research</a>
@@ -51,8 +48,8 @@
       description:
         - title: Enhancing Initialization for Gaussian Splatting
           contents:
-              - Computer Vision
-              - 3D Scene Representation
+            - Computer Vision
+            - 3D Scene Representation
 
     - title: Undergraduate Research Intern
       institution: <a href = https://rpm.snu.ac.kr/>RPM Robotics Lab.</a>
@@ -60,17 +57,13 @@
       description:
         - title: LiDAR - Thermal HUSKY UGV Platform
           contents:
-              - Simultaneous Localization and Mapping
-              - Hardware Design and Implementation
+            - Simultaneous Localization and Mapping
+            - Hardware Design and Implementation
 
         - title: Quantitative 3D Map Accuracy Evaluation
           contents:
-              - Simultaneous Localization and Mapping
-              - Algorithm Development
-    
-
-
-
+            - Simultaneous Localization and Mapping
+            - Algorithm Development
 
 - title: Publications
   type: time_table
@@ -78,21 +71,19 @@
     - title: <a href="https://openreview.net/forum?id=XUFQaNSZdK">Action Chunking Proximal Policy Optimization for Universal Dexterous Grasping</a>
       year: 2025
       description:
-      - IEEE Humanoids 2025 - Workshop on Dexterous Human Manipulation 
-      - In extension for ICML 2026
+        - IEEE Humanoids 2025 - Workshop on Dexterous Human Manipulation
+        - In extension for ICML 2026
 
     - title: <a href="https://github.com/SangwooJung98/3D_Map_Evaluation">Quantitative 3D Map Accuracy Evaluation Hardware and Algorithm for LiDAR(-Inertial) SLAM</a>
       year: 2024
       description: The 24th International Conference on Control, Automation, and Systems (ICCAS 2024)
-
-
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2024
       items:
-        - SNU Student-Directed Education Undergraduate Research Program 
+        - SNU Student-Directed Education Undergraduate Research Program
 
     - year: 2020 - 2024
       items:
@@ -102,7 +93,7 @@
   type: nested_list
   contents:
     - title: Robotics
-      items:  
+      items:
         - Dexterous Manipulation
         - Humanoids
         - Robot Learning
@@ -111,8 +102,7 @@
       items:
         - 3D Computer Vision
         - 4D Scene Representation
-
 #- title: Other Interests
- # type: list
-  #contents:
-   # - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# type: list
+#contents:
+# - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

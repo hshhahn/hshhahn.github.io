@@ -11,8 +11,7 @@ related_publications: false
 ---
 
 In this project, we enhance the performance of Dynamic 3D Gaussian Splatting for sparse timewise inputs by introducing a loss term which integrates interpolated Gaussians from unseen timesteps.
-Detailed explanations of the project can be found in the downloadable paper on the upper right. 
-
+Detailed explanations of the project can be found in the downloadable paper on the upper right.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -23,11 +22,11 @@ Detailed explanations of the project can be found in the downloadable paper on t
     </div>
 </div>
 
-Gaussian Splatting is a method for representing a 3D scene with a large number of 3D Gaussians. 
-In order to express a dynamic scene using 3D gaussians, the conventional approach is to generate an independent set of Gaussians for every timestep. 
-However, this method requires a large amount of data and compuatational resources, which is inefficient. 
+Gaussian Splatting is a method for representing a 3D scene with a large number of 3D Gaussians.
+In order to express a dynamic scene using 3D gaussians, the conventional approach is to generate an independent set of Gaussians for every timestep.
+However, this method requires a large amount of data and compuatational resources, which is inefficient.
 Deformable 3D Gaussians, or 4D Gaussian Splatting uses a MLP to solve this issue.
-In this approach, a trained MLP takes the initial Gaussian as its input, and returns the Gaussian at time t, which greatly reduces the number of parameters. 
+In this approach, a trained MLP takes the initial Gaussian as its input, and returns the Gaussian at time t, which greatly reduces the number of parameters.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -38,7 +37,7 @@ In this approach, a trained MLP takes the initial Gaussian as its input, and ret
     </div>
 </div>
 
-The biggest downside of 4D Gaussians Splatting is that the network is strongly overfitted to the input images, resulting in broken images at timesteps without any ground truth, which we refer to as interpolated timesteps. 
+The biggest downside of 4D Gaussians Splatting is that the network is strongly overfitted to the input images, resulting in broken images at timesteps without any ground truth, which we refer to as interpolated timesteps.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
