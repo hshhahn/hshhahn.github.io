@@ -5,7 +5,7 @@ description: Term Project - Deep Learning (2024 Fall)
 contributers: Jeongtaek Oh*, Wonjun Jeong*, Huijeong Choe*, <strong>Sanghyun Hahn*</strong>
 img: assets/img/FF_3DGS_proj/main.png
 importance: 3
-category: work
+category: Course Projects
 proj_pdf: FF_3DGS_MCMC.pdf
 related_publications: false
 ---

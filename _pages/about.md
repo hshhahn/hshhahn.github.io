@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: SNU Aerospace & Mechanical Engineering
+subtitle: Cornell Robotics
 
 profile:
   align: right
@@ -17,12 +17,30 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an undergraduate senior student in the department of Mechanical and Aerospace Engineering, Seoul National University.
-I am currently a research intern in the SNU Machine Perception and Reasoning Lab, interested in dexterous manipulation, humanoids, and robot learning.
-My research goal is to enable robots to think and act in the way humans do, bringing robots that we've only imagined of to real life.
+I am a Robotics Ph.D. student at Cornell CIS, advised by Prof. Kuan Fang. My research goal is to develop robot-learning methods that lead to generalist humanoids for daily life. I earned my bachelor's degree from Seoul National University. During my undergraduate studies, I was fortunate to work with [Prof. Jonghyun Choi](https://ppolon.github.io/), [Prof. Hyounjin Kim](https://larr.snu.ac.kr/), and [Prof. Ayoung Kim](https://ayoungk.github.io/).
 
-<!--
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
--->
+<section class="home-section" aria-labelledby="research-interests">
+  <p class="section-label">Research interests</p>
+  <h2 id="research-interests">Learning for capable robots</h2>
+  <p>I am especially interested in representation learning for manipulation, imitation learning, 3D scene understanding, and reliable robot perception.</p>
+</section>
+
+<section class="home-section" aria-labelledby="explore-work">
+  <p class="section-label">Explore</p>
+  <h2 id="explore-work">Selected work and background</h2>
+  <div class="quick-links">
+    <a class="quick-link" href="{{ '/projects/' | relative_url }}">
+      <span class="quick-link-title">Projects</span>
+      <span class="quick-link-copy">Research, internship, and course work</span>
+    </a>
+    <a class="quick-link" href="{{ '/publications/' | relative_url }}">
+      <span class="quick-link-title">Publications</span>
+      <span class="quick-link-copy">Conference papers and workshop work</span>
+    </a>
+    <a class="quick-link" href="{{ '/cv/' | relative_url }}">
+      <span class="quick-link-title">CV</span>
+      <span class="quick-link-copy">Experience, education, and a downloadable resume</span>
+    </a>
+  </div>
+</section>

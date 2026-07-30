@@ -5,7 +5,7 @@ description: Term Project - Machine Learning for Mechanical Engineering (2023 Fa
 contributers: Dongkyu Shin*, Jonghooh Shin*, <strong>Sanghyun Hahn*</strong>, Seungseok Oh*, Jooyoung Kim*, Seokjin Park*
 img: assets/img/Kernel_Estimation_proj/main_img.png
 importance: 6
-category: work
+category: Course Projects
 related_publications: false
 ---
 

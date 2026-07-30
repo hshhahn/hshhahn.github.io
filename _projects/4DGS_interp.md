@@ -5,7 +5,7 @@ description: Term project - 3D Computer Vision (2024 Spring)
 contributers: <strong>Sanghyun Hahn*, </strong>Jungwoo park*, Wonjae Ho*
 img: assets/img/Dynamic_Interp_3DGS_proj/main.png
 importance: 5
-category: work
+category: Course Projects
 proj_pdf: 3D Dynamic Scene Interpolation with Gaussian Splatting.pdf
 related_publications: false
 ---

@@ -2,11 +2,13 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Projects without publications, via class and internship.
+description: Research, internship, and course projects.
 nav: true
 nav_order: 3
-display_categories: false
-horizontal: false
+display_categories:
+  - Research & Internships
+  - Course Projects
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
@@ -14,9 +16,7 @@ horizontal: false
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
+  <h2 id="{{ category | slugify }}" class="category">{{ category }}</h2>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->

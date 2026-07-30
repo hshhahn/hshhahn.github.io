@@ -5,7 +5,7 @@ description: Research Intership @ SNURPM
 contributers: <strong>Sanghyun Hahn</strong>, Taekyun Ha, Inhee Lee
 img: assets/img/GS_SE3/method_overview.png
 importance: 1
-category: work
+category: Research & Internships
 proj_pdf: Gaussian Splatting as SE(3) Equivariant Features for Imitation Learning.pdf
 related_publications: false
 ---

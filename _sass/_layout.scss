@@ -40,6 +40,68 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
+// Landing page
+.home-section {
+  clear: both;
+  margin-top: 2.5rem;
+
+  h2 {
+    margin-bottom: 0.75rem;
+  }
+}
+
+.section-label {
+  color: var(--global-theme-color);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
+}
+
+.quick-links {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 1rem;
+}
+
+.quick-link {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.45rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 1rem;
+  text-decoration: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+    transform: translateY(-2px);
+  }
+}
+
+.quick-link-title {
+  color: var(--global-text-color);
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.quick-link-copy {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 575.98px) {
+  .quick-links {
+    grid-template-columns: 1fr;
+  }
+}
+
 /******************************************************************************
  * Publications
  ******************************************************************************/
