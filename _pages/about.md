@@ -20,6 +20,6 @@ I am a Robotics Ph.D. student at Cornell CIS, advised by [Prof. Kuan Fang](https
 
 I earned my bachelor's degree from Seoul National University. During my undergraduate studies, I was fortunate to work with [Prof. Jonghyun Choi](https://ppolon.github.io/), [Prof. Hyounjin Kim](https://larr.snu.ac.kr/), and [Prof. Ayoung Kim](https://ayoungk.github.io/).
 
-I am always happy to chat with new people, so feel free to reach out!
+I am always happy to chat, so feel free to reach out!
 
 
