@@ -18,8 +18,6 @@ social: true # includes social icons at the bottom of the page
 
 I am a Robotics Ph.D. student at Cornell CIS, advised by [Prof. Kuan Fang](https://kuanfang.github.io/). My research focuses on robot learning for generalist humanoids.
 
-I earned my bachelor's degree from Seoul National University. During my undergraduate studies, I was fortunate to work with [Prof. Jonghyun Choi](https://ppolon.github.io/), [Prof. Hyounjin Kim](https://larr.snu.ac.kr/), and [Prof. Ayoung Kim](https://ayoungk.github.io/).
+I earned my bachelor's degree from Seoul National University. During my undergraduate studies, I was fortunate to work with [Prof. Jonghyun Choi](https://ppolon.github.io/), [Prof. Hyounjin Kim](https://larr.snu.ac.kr/index.php/people/#), and [Prof. Ayoung Kim](https://ayoungk.github.io/).
 
-I am always happy to chat, so feel free to reach out!
-
-
+I am always open to chat, so feel free to reach out!
