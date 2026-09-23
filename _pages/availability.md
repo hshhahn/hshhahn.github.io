@@ -9,7 +9,7 @@ nav_order: 4
 {% if site.google_calendar_embed_url %}
   <div class="availability-calendar">
     <p class="availability-calendar__intro">
-      Here is my current schedule!
+      Here is my current schedule! (My timezone is in ET)
     </p>
     <div class="availability-calendar__viewport">
       <iframe
