@@ -393,6 +393,48 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Availability calendar
+
+.availability-calendar {
+  clear: both;
+  margin: 2.5rem 0 2rem;
+
+  h2 {
+    margin-bottom: 0.35rem;
+  }
+}
+
+.availability-calendar__intro {
+  margin-bottom: 1rem;
+  color: var(--global-text-color-light);
+}
+
+.availability-calendar__viewport {
+  position: relative;
+  width: 100%;
+  height: 38rem;
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.availability-calendar__frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: calc(100% + 2.75rem);
+  border: 0;
+  background: #fff;
+  pointer-events: none;
+}
+
+@media (max-width: 575px) {
+  .availability-calendar__viewport {
+    height: 32rem;
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;

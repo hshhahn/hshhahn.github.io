@@ -21,3 +21,23 @@ I am a Robotics Ph.D. student at Cornell CIS, advised by [Prof. Kuan Fang](https
 I earned my bachelor's degree from Seoul National University. During my undergraduate studies, I was fortunate to work with [Prof. Jonghyun Choi](https://ppolon.github.io/), [Prof. Hyounjin Kim](https://larr.snu.ac.kr/index.php/people/#), and [Prof. Ayoung Kim](https://ayoungk.github.io/).
 
 I am always open to chat, so feel free to reach out!
+
+{% if site.google_calendar_embed_url %}
+  <section class="availability-calendar" aria-labelledby="availability-calendar-title">
+    <h2 id="availability-calendar-title">Availability</h2>
+    <p class="availability-calendar__intro">
+      Here is my current schedule. To coordinate a meeting, email me with a few times that work for you.
+    </p>
+    <div class="availability-calendar__viewport">
+      <iframe
+        class="availability-calendar__frame"
+        src="{{ site.google_calendar_embed_url }}"
+        title="Sanghyun Hahn's availability calendar"
+        loading="lazy"
+        tabindex="-1"
+        aria-hidden="true"
+        scrolling="no"
+      ></iframe>
+    </div>
+  </section>
+{% endif %}
