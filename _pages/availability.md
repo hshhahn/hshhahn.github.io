@@ -3,7 +3,7 @@ layout: page
 title: Availability
 permalink: /availability/
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 {% if site.google_calendar_embed_url %}

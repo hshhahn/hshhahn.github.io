@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Research, internship, and course projects.
-nav: true
+nav: false
 nav_order: 3
 display_categories:
   - Research & Internships
