@@ -34,6 +34,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: PhD Student
+      institution: <a href="https://kuanfang.github.io/join-us.html">Generalizable Robot Intelligence and Learning Lab (GRILL)</a>
+      year: 2026 - Present
+      description:
+        - "Advisor: Prof. Kuan Fang"
+
     - title: Undergraduate Researcher
       institution: <a href = https://snumprlab.github.io/>Machine Perception and Reasoning Lab.</a>
       year: 2025 - 2026
@@ -44,7 +50,7 @@
             - Robotics (Manipulation)
             - Computer Vision
 
-        - title: Action Chunking Proximal Policy Optimization for Universal  Dexterous Grasping
+        - title: Action Chunking Proximal Policy Optimization with Feedback Correction
           contents:
             - Reinforcement Learning
             - Dexterous Manipulation
