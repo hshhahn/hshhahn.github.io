@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD Candidate in Robotics
+    - title: PhD Student in Robotics
       institution: Cornell University, Ithaca, NY, USA
       year: 2026 - Present
       description:
@@ -75,19 +75,22 @@
 - title: Publications
   type: time_table
   contents:
-    - title: <a href="https://openreview.net/forum?id=XUFQaNSZdK">Action Chunking Proximal Policy Optimization for Universal Dexterous Grasping</a>
-      year: 2025
+    - title: <a href="https://arxiv.org/abs/2609.36250">Action Chunking Proximal Policy Optimization with Feedback Correction</a>
+      year: 2026
       description:
-        - IEEE Humanoids 2025 - Workshop on Dexterous Human Manipulation
-        - In extension for ICML 2026
+        - The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS 2026), Poster
 
-    - title: <a href="https://github.com/SangwooJung98/3D_Map_Evaluation">Quantitative 3D Map Accuracy Evaluation Hardware and Algorithm for LiDAR(-Inertial) SLAM</a>
+    - title: <a href="https://arxiv.org/abs/2408.09727">Quantitative 3D Map Accuracy Evaluation Hardware and Algorithm for LiDAR(-Inertial) SLAM</a>
       year: 2024
       description: The 24th International Conference on Control, Automation, and Systems (ICCAS 2024)
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026 - 2027
+      items:
+        - Cornell Fellowship
+
     - year: 2024
       items:
         - SNU Student-Directed Education Undergraduate Research Program
@@ -101,14 +104,9 @@
   contents:
     - title: Robotics
       items:
+        - Humanoid Whole-body Control
         - Dexterous Manipulation
-        - Humanoids
-        - Robot Learning
         - Reinforcement Learning
-    - title: Computer Vision
-      items:
-        - 3D Computer Vision
-        - 4D Scene Representation
 #- title: Other Interests
 # type: list
 #contents:
