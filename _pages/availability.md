@@ -17,8 +17,6 @@ nav_order: 3
         src="{{ site.google_calendar_embed_url }}"
         title="Sanghyun Hahn's availability calendar"
         loading="lazy"
-        tabindex="-1"
-        aria-hidden="true"
         scrolling="no"
       ></iframe>
     </div>
