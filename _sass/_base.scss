@@ -180,6 +180,12 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
+// News
+
+.news .table {
+  color: var(--global-text-color);
+}
+
 // Profile
 
 .profile {
@@ -189,6 +195,11 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+
+    .email-separator {
+      font-family: Georgia, "Times New Roman", serif;
+      font-style: italic;
+    }
 
     p {
       display: inline-block;
