@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Robotics Ph.D. student at Cornell CIS, advised by [Prof. Kuan Fang](https://kuanfang.github.io/). My research goal is to enable superhuman robotic abilities through advancements in representation, algorithm, and data collection.
+I am a Robotics Ph.D. student at Cornell CS, advised by [Prof. Kuan Fang](https://kuanfang.github.io/). My research goal is to enable superhuman robotic abilities through advancements in representation, algorithm, and data collection.
 
 I earned my bachelor's degree from Seoul National University. During my undergraduate studies, I was fortunate to work with [Prof. Jonghyun Choi](https://ppolon.github.io/), [Prof. Hyounjin Kim](https://larr.snu.ac.kr/index.php/people/#), and [Prof. Ayoung Kim](https://ayoungk.github.io/).
 
